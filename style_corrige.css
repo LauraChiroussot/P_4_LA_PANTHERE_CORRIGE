@@ -890,6 +890,12 @@ h4 {
 }
 
 @media (max-width: 767px) {
+
+    .row row-no-gutters social{
+
+        display: flex;
+        flex-direction: row;
+    }
     .page-container {
         overflow-x: hidden;
         position: relative;
