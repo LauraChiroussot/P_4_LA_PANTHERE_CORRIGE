@@ -5,7 +5,18 @@ body {
     overflow-x: hidden;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    max-width: 1400px;
 }
+ /*--rajout code--*/
+
+ .site-navigation nav navbar-nav li{
+display: flex;
+flex-direction: column;
+justify-content: left;
+   
+}
+ 
+
 
 a,
 button {

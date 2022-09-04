@@ -1661,6 +1661,17 @@ mark {
     text-align: center
 }
 
+
+/*--début rajout code--*/
+.text-center{
+    font-size: 18px;
+}
+
+.text-center p{
+    font-size: 18px;
+}
+/*--fin rajout code--*/
+
 .text-justify {
     text-align: justify
 }
