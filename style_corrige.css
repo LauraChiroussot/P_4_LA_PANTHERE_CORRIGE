@@ -16,8 +16,12 @@ body {
     font-size: 20px;
 }
 
-.text-center {
-    font-size: 14px;
+
+
+b,
+strong {
+    font-weight: 700;
+    font-style: italic;
 }
 
 
@@ -531,8 +535,9 @@ button {
 }
 
 .form-control {
-    border-color: rgba(0, 0, 0, .1);
+    border-color: rgba(0, 0, 0, .3);
     box-shadow: none;
+    margin-top: 15px;
 }
 
 .scrollToTop {
@@ -702,7 +707,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 12px;
 }
 
 .tight-width-whitespace {
@@ -726,7 +731,9 @@ p {
 
 .social {
     max-width: 400px;
-    margin: auto auto auto auto;
+    margin: 10px auto auto auto;
+    display: flex;
+    justify-content: space-between;
 }
 
 h2 {
@@ -805,6 +812,8 @@ h4 {
     color: #bb5a2d !important;
     font-size: 14px;
     font-weight: bolder;
+    border-block: solid 2px;
+    background-color: bisque;
 }
 
 
