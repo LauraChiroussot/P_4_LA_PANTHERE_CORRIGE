@@ -582,21 +582,22 @@ a[data-lightbox] {
 }
 
 a[data-lightbox]:hover::before {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     content: "+";
     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial;
     font-size: 32px;
     width: 50px;
     height: 50px;
-    margin-left: -25px;
+    left: calc(50% - 25px);
     border-radius: 50%;
     background: rgba(0, 0, 0, .6);
     color: #FFF;
     font-weight: 100;
     z-index: 1;
     position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    -webkit-transform: translateY(-50%);
+    top: calc(50% - 25px);
 }
 
 a[data-lightbox]:hover img {
@@ -789,6 +790,7 @@ h4 {
 
 .portfolio-thumb {
     margin-bottom: 24px;
+    width: 100%;
 }
 
 .portfolio-row {
@@ -1004,7 +1006,7 @@ h4 {
         text-align: left;
         padding-left: 15px;
         width: 100%;
-        
+
     }
 
     .nav>li:hover {
