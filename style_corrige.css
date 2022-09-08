@@ -5,29 +5,27 @@ body {
     overflow-x: hidden;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    max-width: 1400px;
 }
 
 /*--partie rajout code--*/
 
-.legende_1{
+.legende_1 {
     color: #575757 !important;
 }
 
-.legende_2{
+.legende_2 {
     font-size: large;
     font-style: oblique;
     margin: 20px;
-    width: 566px;
-    border: 2px solid #ff860e;
-    background-color: bisque;
+    max-width: 566px;
+    border-top: 4px solid #bb5a2d;
+    border-bottom: 4px solid #bb5a2d;
+    background-color: #ffff15;
 }
 
 .text-center p {
     font-size: 20px;
 }
-
-
 
 b,
 strong {
@@ -35,7 +33,7 @@ strong {
     font-style: italic;
 }
 
-.agency_contact{
+.agency_contact {
     font-size: 16px;
 }
 
@@ -45,11 +43,11 @@ strong {
 
 /*--fin partie rajout codes--*/
 
-.bloc_return{
+.bloc_return {
     transition: all .3s ease-in-out;
     outline: none !important;
-    background-color: rgb(95, 127, 197);
-    padding-inline-end: 53px;
+    padding-inline-end: 131px;
+    max-width: 100px;
 }
 
 a:hover {
@@ -724,7 +722,7 @@ a {
 }
 
 p {
-    font-size: 12px;
+    font-size: 11px;
 }
 
 .tight-width-whitespace {
@@ -750,7 +748,7 @@ p {
     max-width: 400px;
     margin: 10px auto auto auto;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 h2 {
@@ -828,10 +826,10 @@ h4 {
 
 .tc-white {
     color: #bb5a2d !important;
-    font-size: 14px;
+    font-size: 22px;
     font-weight: bolder;
-    border-block: solid 2px;
-    background-color: bisque;
+    border-block: solid 4px;
+    background-color: #ffff15;
 }
 
 
@@ -1006,7 +1004,7 @@ h4 {
         text-align: left;
         padding-left: 15px;
         width: 100%;
-        background-color: aqua;
+        
     }
 
     .nav>li:hover {
