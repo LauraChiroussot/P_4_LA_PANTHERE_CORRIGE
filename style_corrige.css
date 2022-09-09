@@ -34,7 +34,7 @@ strong {
     font-size: 15px;
 }
 
-.citation{
+.citation {
     display: flex;
     flex-direction: column;
 }
@@ -1142,43 +1142,40 @@ h4 {
         padding-right: 0;
     }
 
-   b,
-strong {
-    display: flex;
-    font-size: 11px;
-    text-align: center;
-}
+    b,
+    strong {
+        display: flex;
+        font-size: 11px;
+        text-align: center;
+    }
 
-.citation p{
-    font-size: 11px;
-}
+    .citation p {
+        font-size: 11px;
+    }
 
-.white{
-    font-size: 12px;
-}
+    .white {
+        font-size: 12px;
+    }
 
-.tc-white{
-    font-size: 16px;
-}
+    .tc-white {
+        font-size: 16px;
+    }
 
-}
 
-.legende_1{
+.legende_1 {
     font-size: 25px;
 }
 
-.legende_2{
+.legende_2 {
     font-size: 16px;
-   font-weight: bolder;
+    font-weight: bolder;
+    max-width: 320px;
 }
 
 .bloc .container {
-   
-   
     padding-left: 3px;
-   
 }
-
+}
 
 @media (max-width: 767px) {
     .bloc-mob-center-text {
