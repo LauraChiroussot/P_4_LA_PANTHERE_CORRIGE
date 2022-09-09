@@ -24,13 +24,19 @@ body {
 }
 
 .text-center p {
-    font-size: 20px;
+    font-size: 15px;
 }
 
 b,
 strong {
     font-weight: 700;
     font-style: italic;
+    font-size: 15px;
+}
+
+.citation{
+    display: flex;
+    flex-direction: column;
 }
 
 .agency_contact {
@@ -77,6 +83,8 @@ a:hover {
 }
 
 .bloc .container {
+    display: flex;
+    flex-direction: column;
     padding-left: 0;
     padding-right: 0;
 }
@@ -785,7 +793,7 @@ h4 {
 
 .white {
     color: #FFFFFF !important;
-    font-size: 16px;
+    font-size: 14px;
 }
 
 .portfolio-thumb {
@@ -828,7 +836,7 @@ h4 {
 
 .tc-white {
     color: #bb5a2d !important;
-    font-size: 22px;
+    font-size: 19px;
     font-weight: bolder;
     border-block: solid 4px;
     background-color: #ffff15;
@@ -1133,7 +1141,44 @@ h4 {
         padding-left: 0;
         padding-right: 0;
     }
+
+   b,
+strong {
+    display: flex;
+    font-size: 11px;
+    text-align: center;
 }
+
+.citation p{
+    font-size: 11px;
+}
+
+.white{
+    font-size: 12px;
+}
+
+.tc-white{
+    font-size: 16px;
+}
+
+}
+
+.legende_1{
+    font-size: 25px;
+}
+
+.legende_2{
+    font-size: 16px;
+   font-weight: bolder;
+}
+
+.bloc .container {
+   
+   
+    padding-left: 3px;
+   
+}
+
 
 @media (max-width: 767px) {
     .bloc-mob-center-text {
