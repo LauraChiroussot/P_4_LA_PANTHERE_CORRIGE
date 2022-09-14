@@ -24,7 +24,7 @@ body {
 }
 
 .text-center p {
-    font-size: 15px;
+    font-size: 18px;
 }
 
 b,
@@ -135,10 +135,10 @@ a:hover {
     right: 0;
 }
 
-.texture-paper::before {
+/*.texture-paper::before {
     background: url("img/texture-paper.png");
     background-size: 280px 280px;
-}
+}*/
 
 .b-parallax {
     background-attachment: fixed;
@@ -811,8 +811,7 @@ h4 {
 }
 
 .black-background {
-    /*background-color: rgba(165, 147, 99, 0.7);*/
-    background-color: rgb(165 156 99 / 88%);
+    background-color: rgba(165, 147, 99, 0.7);
     padding: 40px 40px 40px 40px;
 }
 
@@ -830,17 +829,15 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #F3976C !important;
     /*--bandeau footer--*/
 
 }
 
 .tc-white {
-    color: #bb5a2d !important;
+    color: #ffb08a !important;
     font-size: 19px;
     font-weight: bolder;
-    border-block: solid 4px;
-    background-color: #ffff15;
 }
 
 
@@ -1190,4 +1187,3 @@ h4 {
         padding-left: 3px;
     }
 }
-
