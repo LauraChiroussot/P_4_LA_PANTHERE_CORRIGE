@@ -3,18 +3,16 @@ body {
     padding: 0;
     background: #FFF;
     overflow-x: hidden;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
 }
 
 /*--partie rajout code--*/
 
-.navbar-nav_2{
+.navbar-nav_2 {
     margin-top: -10px;
     margin-right: 300px;
 }
 
-a{
+a {
     text-decoration: none;
 }
 
@@ -58,11 +56,10 @@ strong {
     margin-top: 20px;
 }
 
-.social :hover{
+.social :hover {
 
     text-decoration: none;
-    } 
-    
+}
 
 /*--fin partie rajout codes--*/
 
@@ -76,20 +73,8 @@ strong {
     clear: both;
     background: 50% 50% no-repeat;
     padding: 0 50px;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+    position: relative;
 }
-
-/*#page-loading-blocs-notifaction {
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    width: 100%;
-    z-index: 100000;
-    background: #FFFFFF url("img/pageload-spinner.gif") no-repeat center center;
-}*/
 
 .bloc .container {
     display: flex;
@@ -120,9 +105,6 @@ strong {
 .bg-tr-edge,
 .bg-br-edge,
 .bg-repeat {
-    -webkit-background-size: auto !important;
-    -moz-background-size: auto !important;
-    -o-background-size: auto !important;
     background-size: auto !important;
 }
 
@@ -205,7 +187,7 @@ strong {
 .d-bloc h6 a:hover,
 .d-bloc p a:hover {
     color: rgba(255, 255, 255, 1);
-} 
+}
 
 .d-bloc .navbar-toggle .icon-bar {
     background: rgba(255, 255, 255, 1);
@@ -252,6 +234,7 @@ strong {
     color: rgba(0, 0, 0, .5);
 }
 
+.d-bloc .panel button:hover,
 .l-bloc button:hover {
     color: rgba(0, 0, 0, .7);
 }
@@ -369,12 +352,10 @@ strong {
 }
 
 .navbar .nav {
-    /*margin-top: -18px;*/
     float: right;
     z-index: 1;
     list-style: none;
     text-decoration: none;
-   
 }
 
 .nav>li {
@@ -421,7 +402,6 @@ strong {
     .site-navigation {
         position: absolute;
         top: 50%;
-        /*top: 20px;*/
         right: 20px;
         transform: translate(0, -50%);
         -webkit-transform: translateY(-50%);
@@ -524,7 +504,6 @@ nav .caret {
 
 button {
     outline: none !important;
-   
 }
 
 .btn-rd {
@@ -845,7 +824,6 @@ h4 {
     background-color: #f96723b0 !important;
 
     /*--bandeau footer--*/
-
 }
 
 .tc-white {
@@ -853,7 +831,6 @@ h4 {
     font-size: 19px;
     font-weight: bolder;
 }
-
 
 .btn-atomic-tangerine {
     background: #F3976C;
@@ -917,14 +894,14 @@ h4 {
     }
 }
 
-                /*--tablette 1--*/
+/*--tablette 1--*/
 
 @media (max-width: 992px) and (min-width: 768px) {
     .navbar .nav {
         max-width: 80%
     }
 
-    .navbar-nav_2{
+    .navbar-nav_2 {
         margin-right: 100px;
     }
 
@@ -961,11 +938,6 @@ h4 {
         position: relative;
     }
 
-    bloc {
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
-    }
-
     .bloc-group,
     .bloc-group .bloc {
         display: block;
@@ -975,17 +947,13 @@ h4 {
     .bloc-fill-screen .fill-bloc-top-edge,
     .bloc-fill-screen .fill-bloc-bottom-edge {
         padding: 0 20px;
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
+       
     }
 }
 
-            /*--tablette 2--*/
+/*--tablette 2--*/
 
 @media (max-width: 767px) {
-
-
-  
 
     .bloc-mob-center-text {
         text-align: center;
@@ -1047,7 +1015,6 @@ h4 {
         padding-left: 15px;
         width: 760%;
         min-width: 100%;
-
     }
 
     .nav>li:hover {
@@ -1167,13 +1134,20 @@ h4 {
         width: 180px;
         height: 320px;
     }
+
+     .tc-white {
+        font-size: 15px;
+    }
+
+    .white {
+        font-size: 13px;
+    }
 }
 
-                /*--mobile--*/
+/*--mobile--*/
 
 @media (max-width: 400px) {
 
-  
     #bloc-1-hero h1 {
         font-size: 20px;
     }
@@ -1194,14 +1168,13 @@ h4 {
         font-size: 11px;
     }
 
+    .tc-white {
+        font-size: 14px;
+    }
+
     .white {
         font-size: 12px;
     }
-
-    .tc-white {
-        font-size: 16px;
-    }
-
 
     .legende_1 {
         font-size: 23px;
