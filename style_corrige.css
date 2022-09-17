@@ -1,3 +1,4 @@
+
 body {
     margin: 0;
     padding: 0;
@@ -14,6 +15,11 @@ body {
 
 a {
     text-decoration: none;
+}
+
+.image-resize-mode{
+    width: 100px;
+    height: 100px;
 }
 
 .legende_1 {
@@ -724,7 +730,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 12px;
 }
 
 .tight-width-whitespace {
@@ -837,7 +843,9 @@ h4 {
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    /*background: #F3976C;
+    color: #FFFFFF !important;*/
+    background: #f38b6cfa;
     color: #FFFFFF !important;
 }
 
