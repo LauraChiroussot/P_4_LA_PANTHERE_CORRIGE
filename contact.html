@@ -4,7 +4,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="keywords" content="">
-	<meta name="description" content="">
+	<meta name="description" content="Nous connaître et nous contacter">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 	<link rel="shortcut icon" type="image/png" href="favicon.jpg">
 	<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
@@ -80,27 +80,29 @@
 				<div class="row">
 					<form id="form_1">
 						<div class="col-sm-6">
-							<label>
+							<label for="name">
 								Nom
 							</label><br>
-							<input id="name" class="form-control" required />
+							<input type="text" id="name" class="form-control" required />
 						</div>
 						<div class="form-group"><br>
-							<label>
+							<label for="email">
 								Adresse email
 							</label><br>
-							<input id="email" class="form-control" type="email" required />
+							<input type="email" id="email" class="form-control" required />
 						</div>
 						<div class="form-group"><br>
-							<label>
+							<label for="message">
 								Comment nous avez-vous connu ?
 							</label><br>
-							<input class="form-control" type="text" required id="input_504" />
+							<!--<input type="text" class="form-control" type="text" required id="input_504" />-->
+							<input type="text" id="message" class="form-control" required />
 						</div><br>
 						<div class="form-group">
-							<label>
+							<label for="text">
 								Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
-							</label><textarea id="message" class="message-control" required></textarea><br>
+							</label>
+							<textarea id="text" class="form-control" required></textarea><br>
 						</div><br>
 						<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit">
 							Envoyer
@@ -109,7 +111,7 @@
 				</div>
 				<div class="col-sm-6">
 					<p class="agency_contact">
-					<h4>Nous trouver :</h4>
+					<div class="find">Nous trouver :</div><br>
 						contact@agencelapanthere.com<br>2 place Sathonay 69001 Lyon<br>Ouvert de 9h à 18h, du lundi
 						au vendredi<br>
 				</div>
