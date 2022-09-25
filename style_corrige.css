@@ -45,14 +45,33 @@ strong {
     flex-direction: column;
 }
 
-
-
 .social:hover {
     text-decoration: none;
 }
 
+.row_2 {
+    margin-left: 22px;
+}
+
+.form-group {
+    max-width: 100%;
+}
+
+textarea.form-control {
+    height: 200px;
+}
+
 .find {
     font-size: large;
+    margin-top: 10px;
+}
+
+.col-sm-6_2 {
+    margin-left: 23px;
+}
+
+.col-sm-12_2 {
+    margin-left: -10px;
 }
 
 /*--footer--*/
@@ -551,7 +570,8 @@ button {
     border-color: rgba(0, 0, 0, .3);
     box-shadow: none;
     margin-top: 15px;
-    width: 320px;
+    width: 700px;
+    max-width: 100%;
 }
 
 .scrollToTop {
@@ -910,7 +930,6 @@ h4 {
         margin-right: 100px;
     }
 
-
     .nav-center.navbar .nav {
         max-width: 100%
     }
@@ -929,6 +948,12 @@ h4 {
 }
 
 @media (max-width: 991px) {
+
+    .bloc_centrage {
+
+        margin-left: none;
+    }
+
     .container {
         width: 100%;
     }
@@ -952,13 +977,17 @@ h4 {
     .bloc-fill-screen .fill-bloc-top-edge,
     .bloc-fill-screen .fill-bloc-bottom-edge {
         padding: 0 20px;
-
     }
 }
 
 /*--tablette 2--*/
 
 @media (max-width: 767px) {
+
+    .form-control {
+        width: 550px;
+        max-width: 100%;
+    }
 
     .bloc-mob-center-text {
         text-align: center;
@@ -1121,10 +1150,6 @@ h4 {
         margin-top: 30px;
     }
 
-    form {
-        padding: 5px;
-    }
-
     .close-lightbox {
         display: inline-block;
     }
@@ -1147,6 +1172,10 @@ h4 {
 
     .white {
         font-size: 13px;
+    }
+
+    .find {
+        margin-left: -10px;
     }
 }
 
@@ -1191,8 +1220,9 @@ h4 {
         font-weight: bolder;
         max-width: 320px;
     }
-    .bloc .container {
-        padding-left: 15px;
+
+    .form-control {
+        width: 330px;
+        max-width: 100%;
     }
-    
 }
