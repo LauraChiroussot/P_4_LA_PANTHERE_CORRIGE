@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="fr">
 
 <head>
@@ -7,17 +7,29 @@
 	<meta name="description" content="Nous connaître et nous contacter">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 	<link rel="shortcut icon" type="image/png" href="favicon.jpg">
-	
-	<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="./css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="./css/font-awesome.css">
+	<link rel="stylesheet" type="text/css" href="./css/et-line.css">
+	<link rel="stylesheet" type="text/css" href="style_corrige.css">
+
+	<script src="./js/jquery-2.1.0.js" defer></script>
+	<script src="./js/bootstrap.js" defer></script>
+	<script src="./js/blocs.js" defer></script>
+	<script src=".js/jquery.touchSwipe.js" defer></script>
+	<script src="./js/gmaps.js">defer</script>
+
+
+	<!--<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="./css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="./css/et-line.min.css">
 	<link rel="stylesheet" type="text/css" href="style_corrige.css">
-	
-	<script src="./js/jquery-2.1.0.min.js"></script>
-	<script src="./js/bootstrap.min.js"></script>
-	<script src="./js/blocs.min.js"></script>
-	<script src="./js/jqBootstrapValidation.js"></script>
-	<script src="./js/formHandler.js"></script>
+
+	<script src="./js/jquery-2.1.0.min.js">defer</script>
+	<script src="./js/bootstrap.min.js">defer</script>
+	<script src="./js/blocs.min.js">defer</script>
+	<script src="./js/jqBootstrapValidation.js">defer</script>
+	<script src="./js/formHandler.js">defer</script>-->
+
 
 	<title>LA PANTHERE Contact</title>
 
@@ -32,26 +44,29 @@
 	<div class="page-container">
 
 		<!-- bloc-0 -->
-		<article class="bloc bgc-white l-bloc " id="bloc-0">
+		<div class="bloc bgc-white l-bloc " id="bloc-0">
 			<div class="container bloc-sm">
 				<nav class="navbar row">
 					<div class="navbar-header">
-						<a class="navbar-brand" href="index.html"><img src="img/agence-la-panthere-monochromewebp2.webp"
+						<a class="navbar-brand" href="index.html"><img src="img/agence-la-panthere-monochrome.svg"
 								alt="atlanta web design logo" height="40" /></a>
-
+						<!--<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse" data-target=".navbar-1">
+					<span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+				</button>-->
 					</div>
-
 					<div class="collapse navbar-collapse navbar-1 special-dropdown-nav">
 						<ul class="site-navigation nav navbar-nav_2">
-							<li class="bloc_return">
+							<li>
 								<a href="index.html">Accueil</a>
 							</li>
-
+							<li>
+								<a href="contact.html">Contact</a>
+							</li>
 						</ul>
 					</div>
 				</nav>
 			</div>
-		</article>
+		</div>
 		<!-- bloc-0 END -->
 
 		<!-- bloc-6 -->
@@ -81,37 +96,38 @@
 						<div class="col-sm-6">
 							<label for="name">
 								Nom
-							</label><br>
+							</label>
 							<input type="text" id="name" class="form-control" required />
 						</div>
-						<div class="form-group"><br>
+						<div class="form-group">
 							<label for="email">
 								Adresse email
-							</label><br>
+							</label>
 							<input type="email" id="email" class="form-control" required />
 						</div>
-						<div class="form-group"><br>
+						<div class="form-group">
 							<label for="message">
 								Comment nous avez-vous connu ?
-							</label><br>
+							</label>
 							<input type="text" id="message" class="form-control" required />
 						</div><br>
 						<div class="form-group">
 							<label for="text">
-								Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
+								Brief de votre projet (Ajoutez autant de détails que nécessaire)
 							</label>
-							<textarea id="text" class="form-control" required></textarea><br>
-						</div><br>
+							<textarea id="text" class="form-control" required></textarea>
+						</div>
 						<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit">
 							Envoyer
 						</button>
 					</form>
 				</div>
 				<div class="col-sm-6">
-					<p class="agency_contact">
-					<div class="find">Nous trouver :</div><br>
-					contact@agencelapanthere.com<br>2 place Sathonay 69001 Lyon<br>Ouvert de 9h à 18h, du lundi
-					au vendredi<br>
+
+					<div class="find">Nous trouver :<br>
+						contact@agencelapanthere.com<br>2 place Sathonay 69001 Lyon<br>Ouvert de 9h à 18h, du lundi
+						au vendredi<br>
+					</div>
 				</div>
 			</div>
 		</article>
@@ -124,14 +140,41 @@
 			<div class="row">
 				<div class="col-sm-12">
 					<p class="text-center white">
-						Agence La Panthère - Agence web basée à Lyon.
+						Agence La Panthère - Agence web basée à Lyon.<br>
 					</p>
-
-
+					<div class="row row-no-gutters social">
+						<div class="col-sm-3">
+							<div class="text-center">
+								<a class="social" href="https://twitter.com/?lang=fr" aria-label="site twitter">
+									<span class="fa fa-twitter icon-md"></span></a>
+							</div>
+						</div>
+						<div class="col-sm-3">
+							<div class="text-center">
+								<a class="social" href="https://fr-fr.facebook.com/" aria-label="site facebook">
+									<span class="fa fa-facebook icon-md"></span></a>
+							</div>
+						</div>
+						<div class="col-sm-3">
+							<div class="text-center">
+								<a class="social" href="https://dribbble.com/"
+									aria-label="site dribble designers_creative">
+									<span class="fa fa-dribbble icon-md"></span></a>
+							</div>
+						</div>
+						<div class="col-sm-3">
+							<div class="text-center">
+								<a class="social" href="https://www.instagram.com/?hl=fr" aria-label="site instagram">
+									<span class="fa fa-instagram icon-md"></span></a>
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
 	</footer>
+	</div>
+
 	<!-- Footer - bloc-8 END -->
 
 	<!-- Principal conteneur END -->
