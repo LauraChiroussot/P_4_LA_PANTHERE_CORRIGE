@@ -951,7 +951,7 @@ h4 {
 
     .bloc_centrage {
 
-        margin-left: none;
+        margin-left: 0;
     }
 
     .container {
